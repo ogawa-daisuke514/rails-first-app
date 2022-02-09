@@ -1,0 +1,6 @@
+      invoke  active_record
+      create    db/migrate/20220209123829_create_people.rb
+      create    app/models/person.rb
+      invoke    test_unit
+      create      test/models/person_test.rb
+      create      test/fixtures/people.yml
